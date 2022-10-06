@@ -1,0 +1,51 @@
+.main {
+  text-align: center;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-image: url('../../images/bitcoin.png');
+  background-position: center;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-color: #f7931a;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.time {
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.price_info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+
+  list-style: none;
+}
+
+.currency {
+  font-size: 16px;
+}
+
+.rate {
+  font-size: 18px;
+
+  transition: color 250ms linear, transform 250ms linear;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: rgb(138, 4, 4);
+    transform: scale(1.1);
+  }
+}
