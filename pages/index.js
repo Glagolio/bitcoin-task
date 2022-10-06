@@ -1,5 +1,13 @@
 import Price from '../components/Price/Price';
+import Head from 'next/head';
 
 export default function Home() {
-  return <Price />;
+  return (
+    <>
+      <Head>
+        <title>Bitcoin</title>
+      </Head>
+      <Price />
+    </>
+  );
 }

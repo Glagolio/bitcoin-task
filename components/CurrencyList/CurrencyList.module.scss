@@ -15,13 +15,13 @@
 .rate {
   font-size: 18px;
 
-  transition: color 250ms linear, transform 250ms linear;
+  transition: text-shadow 250ms linear, transform 250ms linear;
 
   cursor: pointer;
 
   &:hover,
   &:focus {
-    color: rgb(138, 4, 4);
     transform: scale(1.1);
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
   }
 }
